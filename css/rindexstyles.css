@@ -1,0 +1,25 @@
+body {
+  padding-top: 5rem;
+  background-color: #FEFDE6;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+h1 {
+    color :#010101
+}
+
+h2 {
+  color :#A4A3A1
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+  padding: 25px;
+}

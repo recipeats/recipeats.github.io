@@ -1,43 +1,63 @@
-<h1>
-  h1 {
-	color: red;
-	color; rgb: (255,0,0)
-}
-
 <DOCTYPE html!>
 	<html>
 	    <head>
 	        <title>Recipes</title>
 	        <style>
-	            p {
+	            /*p {
 	                color: blue;
 	                font-family: 'Helvetica';
 	                font-size: 16px;}
 	            h1 {color: red;}
 	            ul li {background-color: yellow;}
 	            h2 {color: green; background-color: orange;}
-	            ol li {background-color: teal;}
+	            ol li {background-color: teal;}*/
 	        </style>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+          <link href="css/rindexstyles.css" rel="stylesheet">
 	    </head>
 	    <body>
-	        <h1>Matcha Pancakes</h1>
+        <nav class="navbar navbar-expand-md fixed-top">
+          <nav class="navbar navbar-light" style="background-color: #F0E262;">
+          <a class="navbar-brand" href="Rindex.html">RecipEats</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="Rindex.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Recipes.html">Recipes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Eats.html">Eats</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        </nav>
 
-	        <p>New Recipes</p>
+        <main role="main" class="container">
+	        <h1>New Recipes</h1>
+
+	        <p>More ideas for your kitchen</p>
 
 	        <ul>
 	            <li>Tacos</li>
-	            <li>Fruit Teas.</li>
+	            <li>Fruit Teas</li>
 	            <li>Sushi</li>
 	        </ul>
 
 	        <h2>More to come</h2>
 
-	        <p>Accepting suggestions</p>
+	        <p>New recipes are coming up</p>
 
 	        <ol>
-	            <li>Matcha pancake Recipes</li>
-	            <li>Recipe: Eggs, flour, matcha powder, milk, butter</li>
+	            <li>Matcha pancake</li>
+	            <li>Mac and cheese</li>
 	        </ol>
+        </main>
 
 	    </body>
 	</html>
